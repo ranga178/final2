@@ -58,7 +58,7 @@ cursor:pointer;
 
 /* MAIN CONTENT */
 #main-content{ 
-    background-image:url(../images/background.jpg);
+    background-image:url(./background.jpg);
     display:flex;
 }
 
@@ -71,7 +71,7 @@ cursor:pointer;
     left:45px;
 }
 #figure-two {
-    width:350px;
+    width:250px;
     height:350px;
     float:right;
     position:relative;
