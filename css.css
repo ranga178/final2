@@ -1,0 +1,150 @@
+@media screen and (max-width:560px){
+    body {
+        background-image: url(../images/jason-dent-itA0ybdIDTs-unsplash.jpg);
+        background-repeat: repeat;
+    }
+    
+    /* NAVIGATION */
+    #main-nav{
+    background-color:#4bb7f1;;
+    }
+    #main-nav ul {
+        display:flex;
+        list-style:none;
+        gap:2em;
+        justify-content:center;
+        transition:0.25s;
+         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding:1em; 
+    }
+    
+    #main-nav ul a{
+        color:#fff;
+    }
+    #main-nav a:hover{
+        background-color:#007bff;
+    }
+    
+    /* HEADER */
+    header{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        margin-bottom:1em;
+        height:250px;
+        color:#fff;
+        
+    }
+    
+    header h1{
+        font-size:1.9em;
+        padding:0.5em;
+    }
+    header h2{
+        font-size:1.4em;
+        padding:0.3em;
+    }
+    button{
+        padding:15px 25px;
+        background-color:#36454f;
+        border-radius:5px;
+    }
+    button:hover{
+    cursor:pointer;
+    
+    }
+    
+    /* MAIN CONTENT */
+    #main-content{ 
+        background-image:url(../images/background.jpg);
+        display:flex;
+    }
+    
+    #figure-one {
+        width:300px;
+        height:300px;
+        float:left;
+        margin:5px;
+        position:relative;
+        left:45px;
+    }
+    #figure-two {
+        width:350px;
+        height:350px;
+        float:right;
+        position:relative;
+        padding: 0 20px 20px 0;
+        left:55px;
+        bottom:25px;
+    }
+    
+    p{
+        text-align:justify;
+        font-size:25px;
+        margin:20px;
+        position:relative;
+        left:45px;
+    }
+    
+    
+    
+    
+    /* MAIN */
+    main{
+        order:2;
+        width:70%;
+       padding:2em;
+        background-color:white;
+    }
+    
+    /* ASIDE */
+    aside{
+    display:block;
+    width:30%;
+    padding-left:15px;
+    margin-left:15px;
+    padding:2em;
+    float:left;
+    background-color:white;
+        }
+    aside h2{
+        font-size:25px;
+        text-align:center;
+        padding:0.5em;
+        background-color:#4bb7f1;
+        border-radius:10px 10px 0px 0px;
+    }
+    aside ul li{
+        padding:1em;
+    }
+    aside ul li:nth-of-type(even){
+       background-color:rgb(227,227,227);
+    
+    }
+    aside ul li strong{
+        font-weight:bold;
+        text-transform:uppercase;
+    }
+    /* FOOTER */
+    #main-footer-content{
+        color:white;
+        justify-content:center;
+        align-items:center;
+        display:flex;
+    }
+    footer p{
+    color:white;
+    justify-content:center;
+    display:flex;
+    }
+    
+    
+    #logo{
+        background-color:white;
+        border-radius:20px;
+        transform:rotate(45deg);
+        width:100px;
+        height:100px;
+    }
+}
